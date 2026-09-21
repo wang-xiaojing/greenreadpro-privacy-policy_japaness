@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>プライバシーポリシー - GreenRead Pro</title>
+    <style>
+        body {
+            font-family: -apple-system, 'Hiragino Sans', 'Hiragino Kaku Gothic ProN', sans-serif;
+            line-height: 1.8;
+            color: #333;
+            max-width: 720px;
+            margin: 0 auto;
+            padding: 24px 16px 80px;
+            background: #fafbfc;
+        }
+        h1 {
+            font-size: 1.6em;
+            border-bottom: 2px solid #2E8B57;
+            padding-bottom: 12px;
+            margin-bottom: 24px;
+        }
+        h2 {
+            font-size: 1.2em;
+            margin-top: 32px;
+            margin-bottom: 12px;
+            color: #2c3e50;
+        }
+        h3 {
+            font-size: 1.0em;
+            margin-top: 24px;
+            margin-bottom: 8px;
+        }
+        p, li {
+            font-size: 0.95em;
+        }
+        ul {
+            padding-left: 20px;
+        }
+        li {
+            margin-bottom: 6px;
+        }
+        .last-updated {
+            color: #888;
+            font-size: 0.9em;
+            margin-bottom: 32px;
+        }
+        .app-icon {
+            text-align: center;
+            margin: 24px 0 8px;
+        }
+        .app-icon img {
+            width: 100px;
+            height: 100px;
+            border-radius: 22px;
+            box-shadow: 0 4px 12px rgba(0,0,0,0.15);
+        }
+        .app-icon .app-name {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-top: 12px;
+        }
+        .app-icon .app-desc {
+            color: #888;
+            font-size: 0.9em;
+        }
+        .note-box {
+            background: #eef7f1;
+            border-radius: 8px;
+            padding: 12px 16px;
+            margin: 16px 0;
+            font-size: 0.9em;
+        }
+        .note-box strong {
+            color: #1f6f43;
+        }
+        hr {
+            border: none;
+            border-top: 1px solid #ddd;
+            margin: 32px 0;
+        }
+        address {
+            font-style: normal;
+            background: #f5f7fa;
+            padding: 16px;
+            border-radius: 8px;
+            margin-top: 16px;
+        }
+        a {
+            color: #2E8B57;
+        }
+    </style>
+</head>
+<body>
+
+<div class="app-icon">
+    <img src="GreenReadPro_Icon.jpg" alt="GreenRead Pro アイコン" onerror="this.style.display='none'">
+    <div class="app-name">GreenRead Pro</div>
+    <div class="app-desc">グリーンリード プロ - ゴルフグリーン傾斜測定アプリ</div>
+</div>
+
+<h1>プライバシーポリシー</h1>
+
+<p class="last-updated">最終更新日：2026年9月21日</p>
+
+<p>
+「GreenRead Pro」（以下「本アプリ」といいます）は、ユーザーのプライバシーを尊重し、個人情報の保護に努めています。本プライバシーポリシーは、ユーザーが本アプリを利用する際に取り扱われる情報の種類、その利用方法、および情報の保護方法について説明するものです。本アプリを利用する前に、以下の内容をよくお読みください。
+</p>
+
+<h2>1. 取得する情報と利用目的</h2>
+
+<h3>1.1 カメラ・LiDAR・センサから取得する情報</h3>
+<p>
+本アプリは、ゴルフグリーン上の傾斜・距離・高低差・ブレイクを計測するため、次の情報を端末上で取得・利用します。
+</p>
+<ul>
+    <li><strong>カメラ映像</strong>：端末のカメラ映像（ARKit / RealityKit の AR 空間）を、距離・傾斜の計測および画面上への計測結果の重ね合わせ表示に使用します。</li>
+    <li><strong>LiDAR 深度マップ</strong>：LiDAR スキャナが取得する深度情報（Scene Depth）を、グリーン面の3次元形状・高低差・傾斜の推定に使用します。</li>
+    <li><strong>デバイスの姿勢・モーション情報</strong>：CoreMotion および ARKit から取得する端末の傾き（X軸・Y軸）やカメラの姿勢を、デバイス姿勢メーターの表示、姿勢ガイド、計測値の補正に使用します。</li>
+    <li><strong>AR トラッキング情報</strong>：ARKit が生成するワールド座標・トラッキング状態を、設置したボールとピンの位置関係および計測値の計算に使用します。</li>
+</ul>
+<div class="note-box">
+    <strong>端末内で処理されます：</strong>
+    これらの映像・深度・センサ情報は、すべて端末内でリアルタイムに処理されるものであり、
+    写真や動画として端末に保存されることはありません。また、外部のサーバーへ送信されることもありません。
+</div>
+
+<h3>1.2 アプリ内で作成・保存される情報</h3>
+<ul>
+    <li><strong>各種設定値</strong>：距離単位、深度平均カーネル、ブレイク中間計算点数、位置決め円の設定、左利きモード、グリーン速度、フォントサイズ、表示レイアウト、ライン色、デバイス姿勢メーターの表示設定など</li>
+    <li><strong>利用状態に関する情報</strong>：初回起動時の同意事項への同意状態、体験期間の累積利用時間</li>
+    <li><strong>体験期間の初回起動日時</strong>：無料体験の開始日時（再インストールによる体験期間のリセットを防ぐ目的で Keychain に保存）</li>
+    <li><strong>設定バックアップ</strong>：ユーザーが任意で書き出す設定データ（JSON ファイル）。書き出し先はユーザー自身が選択します。</li>
+</ul>
+
+<h3>1.3 購入に関する情報</h3>
+<ul>
+    <li>App Store（StoreKit）を通じた購入状態（全機能版の購入有無）。購入状態は端末内にも保存され、起動時の表示に使用されます。</li>
+</ul>
+<p>※購入に関する決済情報（クレジットカード番号等）は Apple が管理し、本アプリは保持しません。</p>
+
+<h3>1.4 広告に関する情報</h3>
+<ul>
+    <li>本アプリは、未購入の場合に各画面の上部へバナー広告を表示します。広告の配信には Google が提供する Google Mobile Ads SDK（AdMob）を利用しています。</li>
+    <li>広告配信事業者（Google）は、広告の配信・不正防止・効果測定のために、端末の種類・OS のバージョン・言語・IP アドレス、広告の表示や操作に関する情報などを取得する場合があります。</li>
+    <li>本アプリは、他社のアプリや Web サイトをまたいだトラッキングの許可（App Tracking Transparency）をユーザーに要求しておらず、広告目的で広告識別子（IDFA）を利用していません。</li>
+    <li>広告配信における情報の取り扱いの詳細は、Google のプライバシーポリシーをご確認ください。
+        <a href="https://policies.google.com/privacy?hl=ja" target="_blank" rel="noopener">https://policies.google.com/privacy?hl=ja</a></li>
+</ul>
+
+<h2>2. 情報の利用目的</h2>
+<p>本アプリは、取得した情報を次の目的で利用します。</p>
+<ul>
+    <li>カメラ映像・LiDAR 深度情報のリアルタイム処理による、距離・高低差・傾斜・ブレイクの算出</li>
+    <li>ボール・ピン・基準線・狙い線・転がりライン・傾斜方向矢印などの画面表示</li>
+    <li>デバイス姿勢メーターの表示および姿勢ガイドによる計測支援</li>
+    <li>測定・表示に関する設定値の保存と反映</li>
+    <li>設定データのバックアップ（書き出し）および復元</li>
+    <li>購入状態の確認・復元、および無料体験期間の管理</li>
+    <li>未購入時のバナー広告の配信</li>
+</ul>
+<p>※本アプリが取得した計測データを、広告配信やマーケティングを目的として独自に利用することはありません。</p>
+
+<h2>3. データの保存場所と保持</h2>
+<ul>
+    <li>計測に用いるカメラ映像・LiDAR 深度情報・センサ情報は、端末内でリアルタイムに処理され、保存されません。</li>
+    <li>各種設定値および体験期間の累積利用時間は、Apple が提供する仕組み（UserDefaults）を用いて端末内にのみ保存されます。</li>
+    <li>体験期間の初回起動日時は、端末内の Keychain に保存されます。</li>
+    <li>設定バックアップは、ユーザーが明示的に操作した場合にのみ、ユーザーが選択した保存先へ JSON ファイルとして書き出されます。</li>
+    <li>本アプリは、ユーザーの計測データや設定データを外部のサーバーへ送信・保存することはありません（広告の配信を除きます）。</li>
+    <li>本アプリをアンインストールすると、端末内の設定データ等は削除されます。ただし、体験期間の初回起動日時（Keychain）は、再インストールによる体験期間のリセットを防ぐため残存します。</li>
+    <li>設定画面の「デフォルト設定に戻す」操作により、設定値をいつでも初期状態に戻すことができます。</li>
+</ul>
+
+<h2>4. 第三者提供</h2>
+<p>本アプリは、法令に基づく場合を除き、ユーザーの情報を第三者へ販売・貸与・提供しません。</p>
+<p>ただし、本アプリは次の外部サービスを利用しており、それぞれの提供事業者の定めに従って情報が処理される場合があります。</p>
+<ul>
+    <li><strong>Apple（StoreKit）</strong>：購入処理・購入状態の確認・復元は Apple の StoreKit を通じて行われます。</li>
+    <li><strong>Google（Google Mobile Ads SDK / AdMob）</strong>：バナー広告の配信は Google の広告配信基盤を通じて行われます。</li>
+</ul>
+<p>※本アプリは、これらの事業者に送信される情報の範囲や保持期間を独自に制御することはできません。詳細は各事業者のプライバシー情報をご確認ください。</p>
+<p>※端末内で処理される計測データ（カメラ映像・LiDAR 深度情報・センサ情報）を第三者へ提供することはありません。</p>
+
+<h2>5. 情報の保護</h2>
+<p>本アプリは、取り扱う情報の漏えい・滅失・毀損を防止するため、以下の措置を講じています。</p>
+<ul>
+    <li>計測に関わる映像・深度・センサ情報を端末内でのみ処理し、保存・外部送信を行わない</li>
+    <li>設定データ等を iOS のアプリサンドボックス内に保存し、他のアプリからのアクセスを制限</li>
+    <li>体験期間の初回起動日時を Keychain に保存</li>
+    <li>外部との通信は広告配信に限られ、Apple・Google が提供する仕組みを通じて行われます</li>
+</ul>
+
+<h2>6. ユーザーの選択（オプトイン／オプトアウト）</h2>
+<ul>
+    <li>カメラへのアクセスは、iOS の権限設定によりいつでも許可／拒否を選択できます。拒否した場合、本アプリの計測機能は利用できません。</li>
+    <li>測定・表示に関する設定は、アプリ内の設定画面で随時変更できます。</li>
+    <li>設定データのバックアップ（書き出し・復元）は任意の操作であり、行わなくても計測機能は利用できます。</li>
+    <li>バナー広告は、全機能版を購入することで非表示になります。購入しなくても、計測機能は機能限定の体験版としてご利用いただけます。</li>
+</ul>
+
+<h2>7. 子どものプライバシー</h2>
+<p>本アプリは、13歳未満の未成年者から意図的に個人情報を収集することを目的としていません。未成年者が本アプリを利用する場合、保護者の同意のもとでご利用ください。</p>
+
+<h2>8. 免責事項</h2>
+<ul>
+    <li>本アプリは、グリーンの傾斜傾向を把握するための計測補助ツールであり、医学的な助言やプレー判断を提供するものではありません。</li>
+    <li>本アプリが示す傾斜値・距離・高低差・ブレイクは、LiDAR センサの性能、直射日光・芝の湿り・計測距離・デバイスの姿勢・手ブレなどの影響により誤差が生じる場合があり、あくまで「参考値」です。絶対的な正確性を保証するものではありません。</li>
+    <li>本アプリは、LiDAR スキャナを搭載した端末（iPhone 12 Pro 以降、iPad Pro）が必要です。</li>
+    <li>競技規則・ローカルルールにより、ラウンド中の電子機器利用が制限される場合があります。公式競技での使用可否は、必ず事前にご確認ください。</li>
+    <li>表示結果に基づく判断は、ユーザーご自身の責任において行ってください。本アプリの利用により生じた損害について、開発者は一切の責任を負いません。</li>
+</ul>
+
+<h2>9. プライバシーポリシーの変更</h2>
+<p>本プライバシーポリシーは、必要に応じて変更されることがあります。重要な変更がある場合は、アプリ内または配布ページ等で周知します。変更後もアプリを利用し続けることで、新しいプライバシーポリシーに同意したものとみなされます。</p>
+
+<hr>
+
+<h2>10. お問い合わせ</h2>
+<p>本プライバシーポリシーに関するお問い合わせは、以下の窓口からご連絡ください。</p>
+<address>
+    <strong>開発者</strong>：wang xiaojing<br>
+    <strong>連絡先</strong>：<a href="mailto:appinfo_applestore@yahoo.co.jp">appinfo_applestore@yahoo.co.jp</a>
+</address>
+
+<p style="margin-top: 40px; text-align: center; color: #aaa; font-size: 0.85em;">
+    &copy; 2026 wang xiaojing. All rights reserved.
+</p>
+
+</body>
+</html>
